@@ -8,6 +8,7 @@ using Eigen::VectorXd;
 
 
 class KalmanFilter {
+public:
 //contructor
 KalmanFilter();
 // destructor

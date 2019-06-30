@@ -11,7 +11,7 @@ enum SensorType {
 
 Eigen::VectorXd raw_measurements_;
 
-int64 Timestamp_;
+int64_t Timestamp_;
 };
 
 #endif //sensorMeasurement
