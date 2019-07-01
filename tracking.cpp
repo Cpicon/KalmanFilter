@@ -70,7 +70,7 @@ float dt_2 = std::pow(dt, 2);
 float dt_3 = std::pow(dt, 3);
 float dt_4 = std::pow(dt, 4);
 
-Kf_.Q_<< dt_4/4*noiseAx, 0, df_3/2*noiseAx,
+Kf_.Q_<< dt_4/4*noiseAx, 0, dt_3/2*noiseAx,
         0, dt_4/4*noiseAy, 0, dt_3/2*noiseAy,
         dt_3/2*noiseAx, 0, dt_2*noiseAx, 0,
         0, dt_3/2*noiseAy, 0, dt_2*noiseAy;

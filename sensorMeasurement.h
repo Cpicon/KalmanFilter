@@ -6,7 +6,7 @@
 class sensorMeasurement {
 public:
 enum SensorType {
-        LASER, RADAR
+        LIDAR, RADAR
 } sensor_type_;
 
 Eigen::VectorXd raw_measurements_;
